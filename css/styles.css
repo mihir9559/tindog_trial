@@ -1,0 +1,181 @@
+/* id selectiors */
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 100px;
+}
+
+/* tag selectors */
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.meet{
+    font-size: 3.5rem;
+}
+
+section{
+    font-family: 'Montserrat-thin', sans-serif;
+}
+/* class selectors */
+
+
+/* this padding isnt working coz inbuilt container-fluid is overriding it */
+/* .container-fluid{
+  padding: 3% 15%;   
+}  */
+
+/* .navbar{
+    padding-bottom: 4.5rem;  overriding
+} */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    /* font-size: 2.5 rem;  doesnt work coz of overriding */
+    /* font-weight: bold; */
+
+}
+
+.options{
+    padding: 0px 18px;
+    font-size: 1.25rem;
+    
+}
+
+.download-btn{
+    font-size: 1.25rem;
+    margin: 5% 3% 5% 0;
+}
+
+.dog-img{
+    width: 60%;
+    
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+@media (max-width:1028px){
+    .dog-img{
+        position: static;
+        transform: rotate(0);
+        /* width: 40%; */
+    }
+    #title{ text-align: center;}
+}
+
+/* features section */
+
+#features{
+    padding: 4% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feat{
+    background-color: white;
+}
+
+.col-lg-4.feature-box{
+    
+    /* by writing a parent class also, we can override */
+    padding:8%;
+    text-align: center;
+}
+
+.icon{
+    color: #ef8172;
+     margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* svg{
+    margin-bottom: 3rem;
+} */
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+    
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.press-logos{
+    width: 17%;
+    padding: 0 3% 3%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.card{
+    
+    margin:15% 3%;
+}
+
+/* cta */
+
+.cta-heading{
+    width: 30%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.cta-btn{
+    margin: 20px 30px;
+    margin-bottom: 50px;
+}
+
+/* footer section */
+
+#footer{
+    text-align: center;
+    margin: 50px auto 0px;
+}
+
+.footer-icons{
+    margin: 10px;
+}
